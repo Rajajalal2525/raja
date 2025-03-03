@@ -1,3 +1,6 @@
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
 const properties = [
     {
         imageURL: {
@@ -25,6 +28,7 @@ const properties = [
     },
     
 ];
+
 
 const propertyGrid = document.getElementById("propertyGrid");
 
